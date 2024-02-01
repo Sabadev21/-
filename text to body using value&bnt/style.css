@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input{
+    height:20px;
+    width:200px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid blue;
+    color:black;
+    font-size:1em;
+    
+}
+
+button{
+    outline: 0;
+    border: 0;
+    height:20px;
+    width:auto;
+    background-color: blue;
+    color:#fff;
+}
+
+h1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom:200px;
+    justify-content: center;
+    font-size:5.5rem;
+}
